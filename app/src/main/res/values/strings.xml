@@ -1,0 +1,18 @@
+<resources>   <string name="app_name">My Application</string>
+    <string name="app_menu">Menu</string>
+    <string name="gambar">Gambar %1$s</string>
+    <string name="nama_aplikasi">Aplikasi Penghitung Diskon</string>
+    <string name="diskon_intro">Alat untuk menghitung diskon yang membantu para pengguna Cobalah sekarang!</string>
+    <string name="harga">Harga</string>
+    <string name="diskon">Diskon</string>
+    <string name="hitung">Hitung</string>
+    <string name="hasil">Hasil: %1$s</string>
+    <string name="input_invalid">Tidak boleh kosong</string>
+    <string name="bagikan">Bagikan</string>
+    <string name="bagikan_template">Harga: %1$s Rp\nDiskon: %2$s
+\nHasil: %3$.2f</string>
+    <string name="tentang_aplikasi">About Application</string>
+    <string name="copyright">Hitung Diskon adalah alat untuk membantu user untuk menghitung diskon dari harga barang yang di jual menjadi harga setelah di potong oleh diskon\n
+        Aplikasi ini di buat untuk Para pedagang yang kesusahan dalam menghitung harga setelah diskon\n \nCopyright © 2024 Fairuz Dien Nugroho. \nAll rights reserved.</string>
+    <string name="kembali">Kembali</string>
+</resources>

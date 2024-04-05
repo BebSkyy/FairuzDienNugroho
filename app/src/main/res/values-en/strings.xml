@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="app_menu">menu</string>
+    <string name="gambar">pictcure</string>
+    <string name="harga">price</string>
+    <string name="diskon">discount</string>
+    <string name="hitung">" count"</string>
+    <string name="hasil">results</string>
+    <string name="input_invalid">can not be empty</string>
+    <string name="bagikan">Share To</string>
+    <string name="tentang_aplikasi">About Application</string>
+    <string name="kembali">return</string>
+</resources>
