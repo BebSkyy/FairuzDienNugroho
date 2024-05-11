@@ -62,7 +62,7 @@ fun MainScreen(navController: NavHostController) {
             )
         }
     ) { padding ->
-        GambarDiskon()
+        GambarNoteApp()
         Text(text = stringResource(id = R.string.nama_aplikasi))
         Modifier
             .padding(padding)
@@ -70,13 +70,13 @@ fun MainScreen(navController: NavHostController) {
     }
 }
 @Composable
-fun GambarDiskon() {
+fun GambarNoteApp() {
         Column (
             Modifier.fillMaxSize(),
             verticalArrangement = Arrangement.Center,
             horizontalAlignment = Alignment.CenterHorizontally
         ){
-            Image(painter = painterResource(R.drawable.diskon),
+            Image(painter = painterResource(R.drawable.catatan),
                 contentDescription = null,
                 contentScale = ContentScale.Crop,
                 modifier = Modifier.size(132.dp)
@@ -92,9 +92,9 @@ fun GambarDiskon() {
 @Preview(showBackground = true)
 @Preview(uiMode = Configuration.UI_MODE_NIGHT_YES, showBackground = true)
 @Composable
-fun ScreenPreview() {
+fun MainScreenPreview() {
     MyApplicationTheme {
-        GambarDiskon()
+        GambarNoteApp()
         MainScreen(rememberNavController())
     }
 }
